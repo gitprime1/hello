@@ -21,5 +21,12 @@ def function(A:[],low,high):
 
       return max(function(A,low,mid),function(A,mid + 1,high),merge(A,low,mid,high))
 
-optmius = [1,2,3,4,5,6,10,-1,-2]
+n = int(input("the size of the array"))
+optimus = []
+i = 0
+for i in range(n):
+    z = int(input("enter the number"))
+    Array.append(z)
+print(Array)
+    
 print(function(optmius, 0, len(optmius) - 1))
