@@ -9,7 +9,7 @@
         else:
             mid = (low + high) // 2
             return max(function(A, low, mid), function(A, mid + 1, high),merge(A,low,high)) 
-        n = int(input("the size of the array"))
+n = int(input("the size of the array"))
 optimus = []
 i = 0
 for i in range(n):
